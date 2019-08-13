@@ -125,4 +125,22 @@
 
 .footer {
   background-color: $dark-first;
+  color: $light-third;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+
+  &__content {
+    padding: 1rem 0;
+  }
+}
+
+@media(orientation: landscape) and (min-width: 1025px) {
+  .footer {
+    font-size: 2rem;
+
+    &__content {
+      padding: 1.5rem 0;
+    }
+  }
 }
