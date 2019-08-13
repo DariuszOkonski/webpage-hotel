@@ -31,6 +31,17 @@ body {
   margin-right: auto;
 }
 
+.btn {
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #333333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
 .header {
   background-color: #333333;
 }
@@ -158,6 +169,66 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+
+.main-section .banner {
+  min-height: 40%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/home-main.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/home-main.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-section .banner__header {
+  font-size: 2rem;
+  padding: 2rem 0 1rem;
+}
+
+.main-section .banner__header--span {
+  color: #F7C08A;
+}
+
+.main-section .banner__paragraph {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 180%;
+}
+
+@media (min-width: 768px) {
+  .main-section .banner__header {
+    font-size: 3rem;
+    padding: 3rem 0;
+  }
+  .main-section .banner__paragraph {
+    font-size: 1.8rem;
+  }
+  .main-section .banner .btn {
+    font-size: 1.8rem;
+    padding: 2rem 2.5rem;
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-section .banner__header {
+    font-size: 4.8rem;
+    padding: 4rem 0;
+  }
+  .main-section .banner .btn {
+    margin: 4rem 0;
+  }
+}
+
+.main-section .history {
+  min-height: 25%;
+  background-color: lightblue;
+}
+
+.main-section .features {
+  min-height: 25%;
+  background-color: green;
 }
 
 .footer {

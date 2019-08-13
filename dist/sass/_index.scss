@@ -119,7 +119,130 @@
 .main-section {
   background-color: gray;
   flex-grow: 1;
+
+  .banner {
+    min-height: 40%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home-main.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: $light-third;
+
+    &__header {
+      font-size: 2rem;
+      padding: 2rem 0 1rem;
+
+      &--span {
+        color: $light-first;
+      }
+    }
+
+    &__paragraph {
+      font-size: 1.2rem;
+      font-weight: 100;
+      line-height: 180%;
+    }
+  }
 }
+
+@media(min-width: 768px) {
+  .main-section {
+    .banner {
+      &__header {
+        font-size: 3rem;
+        padding: 3rem 0;
+      }
+
+      &__paragraph {
+        font-size: 1.8rem;
+      }
+
+      .btn {
+        font-size: 1.8rem;
+        padding: 2rem 2.5rem;
+        margin: 3rem 0;
+      }
+    }
+  }
+}
+
+@media(min-width: 1025px) {
+  .main-section {
+    .banner {
+      &__header {
+        font-size: 4.8rem;
+        padding: 4rem 0;
+      }
+
+      .btn {
+        margin: 4rem 0;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-section {
+  .history {
+    min-height: 25%;
+    background-color: lightblue;
+  }
+}
+
+.main-section {
+  .features {
+    min-height: 25%;
+    background-color: green;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //========================================= Footer
 
