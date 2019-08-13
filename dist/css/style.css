@@ -162,5 +162,22 @@ body {
 
 .footer {
   background-color: #333333;
+  color: #FFFFFF;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__content {
+  padding: 1rem 0;
+}
+
+@media (orientation: landscape) and (min-width: 1025px) {
+  .footer {
+    font-size: 2rem;
+  }
+  .footer__content {
+    padding: 1.5rem 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
