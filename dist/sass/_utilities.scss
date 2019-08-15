@@ -14,3 +14,15 @@
   border-radius: 0.5rem;
   margin: 1rem 0;
 }
+
+.btn--light {
+  background-color: $light-second;
+  color: $dark-first;
+}
+
+.btn--small {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem 0;
+
+}
