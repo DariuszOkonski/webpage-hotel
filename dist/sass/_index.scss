@@ -114,7 +114,7 @@
   }
 }
 
-//========================================= Main-Section
+//========================================= Main-Section - banner
 
 .main-section {
   background-color: gray;
@@ -186,38 +186,111 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//========================================= Main-Section - history
 
 .main-section {
   .history {
     min-height: 25%;
-    background-color: lightblue;
+
+    display: flex;
+
+    &__left {
+      flex-basis: 50%;
+
+      background-image: url('../img/hotel-outside.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+
+    &__right {
+      flex-basis: 50%;
+      text-align: center;
+      background-color: $dark-first;
+      padding: 0.5rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    &__header {
+      font-size: 1.4rem;
+      color: $light-third;
+      font-weight: 100;
+      padding: 1rem 0;
+    }
+
+    &__span {
+      color: $light-first;
+    }
+
+    &__paragraph {
+      font-size: 0.8rem;
+      color: $light-third;
+      padding: 1rem 0;
+    }
   }
 }
 
+@media(min-width: 768px) {
+  .main-section {
+    .history {
+      &__header {
+        font-size: 2.2rem;
+      }
+
+      &__paragraph {
+        font-size: 1.2rem;
+        line-height: 160%;
+      }
+
+      &__right .btn {
+        font-size: 1.2rem;
+      }
+
+    }
+  }
+}
+
+@media(min-width: 1025px) {
+  .main-section {
+    .history {
+      &__header {
+        font-size: 3.2rem;
+      }
+
+      &__paragraph {
+        font-size: 1.6rem;
+        line-height: 160%;
+      }
+
+      &__right .btn {
+        font-size: 1.8rem;
+        padding: 2rem 2.5rem;
+        margin: 4rem 0;
+      }
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-section {
   .features {
-    min-height: 25%;
+    // min-height: 25%;
     background-color: green;
   }
 }
