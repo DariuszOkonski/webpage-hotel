@@ -33,9 +33,63 @@
     </nav>
   </header>
 
-  <main class="main-section">
+  <main class="main-section main-section-contact">
 
-    <h1>Main section - contact</h1>
+    <section class="contact-form">
+      <h2 class="contact-form__header container">
+        <span class="contact-form__header--span">Contact</span>
+        Us
+      </h2>
+
+      <p class="contact-form__paragraph container">
+        Please fill out the form below to contact us
+      </p>
+
+      <form class="contact-form__form container">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Type your name..">
+
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="Type your email...">
+
+        <label for="message">Message</label>
+        <textarea name="message" placeholder="Type some message..."></textarea>
+
+        <button class="btn btn--small">Submit</button>
+      </form>
+    </section>
+
+    <section class="contact-info">
+      <div class="contact-square">
+        <i class="fa fa-home contact-square__icon" aria-hidden="true"></i>
+        <h2 class="contact-square__header">
+          Location
+        </h2>
+        <p class="contact-square__paragraph">
+          50 Main Street. Boston MA
+        </p>
+      </div>
+
+      <div class="contact-square">
+        <i class="fa fa-phone-square contact-square__icon" aria-hidden="true"></i>
+        <h2 class="contact-square__header">
+          Phone Number
+        </h2>
+        <p class="contact-square__paragraph">
+          (671) 980-9876
+        </p>
+      </div>
+
+      <div class="contact-square">
+        <i class="fa fa-envelope contact-square__icon" aria-hidden="true"></i>
+        <h2 class="contact-square__header">
+          Email Address
+        </h2>
+        <p class="contact-square__paragraph">
+          frontdesk@gmail.com
+        </p>
+      </div>
+    </section>
 
   </main>
 
