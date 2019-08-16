@@ -673,4 +673,113 @@ body {
     font-size: 2rem;
   }
 }
+
+.main-section-contact .contact-form {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  background-color: #CCCCCC;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.main-section-contact .contact-form__header {
+  font-size: 2rem;
+  width: 85%;
+}
+
+.main-section-contact .contact-form__header--span {
+  color: #F7C08A;
+}
+
+.main-section-contact .contact-form__paragraph {
+  font-size: 1.2rem;
+  width: 85%;
+}
+
+.main-section-contact .contact-form__form {
+  width: 85%;
+}
+
+.main-section-contact .contact-form__form label,
+.main-section-contact .contact-form__form input,
+.main-section-contact .contact-form__form textarea {
+  display: block;
+}
+
+.main-section-contact .contact-form__form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.main-section-contact .contact-form__form input,
+.main-section-contact .contact-form__form textarea {
+  width: 80%;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.2rem;
+  border: 1px solid #333333;
+}
+
+.main-section-contact .contact-form__form textarea {
+  height: 4rem;
+}
+
+.main-section-contact .contact-form__form .btn {
+  display: block;
+  margin: 0.5rem auto;
+}
+
+.main-section-contact .contact-info {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: #444444;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section-contact .contact-info .contact-square {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section-contact .contact-info .contact-square__icon {
+  font-size: 3rem;
+}
+
+.main-section-contact .contact-info .contact-square__header {
+  font-size: 1.2rem;
+}
+
+.main-section-contact .contact-info .contact-square__paragraph {
+  font-size: 0.8rem;
+}
 /*# sourceMappingURL=style.css.map */
